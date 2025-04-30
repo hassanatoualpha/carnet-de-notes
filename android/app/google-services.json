@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "811614533419",
+    "project_id": "pendor-dc2ab",
+    "storage_bucket": "pendor-dc2ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811614533419:android:60649c5d0a7af50cb8776e",
+        "android_client_info": {
+          "package_name": "com.example.pendor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK43IzUcU3BLJeDxRw25ZJz5yeB7yzDWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

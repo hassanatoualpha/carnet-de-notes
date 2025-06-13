@@ -30,15 +30,17 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
 
     try {
       if (_isLogin) {
-        await ref.read(authServiceProvider).signInWithEmailAndPassword(
+        var result = await ref.read(authServiceProvider).signInWithEmailAndPassword(
               _emailController.text,
               _passwordController.text,
             );
+        print('result $result');
       } else {
-        await ref.read(authServiceProvider).signUpWithEmailAndPassword(
+        var result = await ref.read(authServiceProvider).signUpWithEmailAndPassword(
               _emailController.text,
               _passwordController.text,
             );
+        print('result $result');
       }
     } catch (e) {
       if (mounted) {

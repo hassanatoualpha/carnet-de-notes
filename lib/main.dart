@@ -33,7 +33,7 @@ class MyApp extends ConsumerWidget {
         useMaterial3: true,
       ),
       home: authState.when(
-        data: (user) => user != null ? const HomeScreen() : const AuthScreen(),
+        data: (user) => user != null ? HomeScreen() : AuthScreen(),
         loading: () => const Scaffold(
           body: Center(
             child: CircularProgressIndicator(),
